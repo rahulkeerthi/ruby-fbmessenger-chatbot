@@ -28,3 +28,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore dotenv config file of all forms
+.env*
+
+# Ignore dump file
+dump.rdb

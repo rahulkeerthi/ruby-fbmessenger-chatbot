@@ -30,6 +30,7 @@ GEM
     concurrent-ruby (1.1.6)
     connection_pool (2.2.3)
     crass (1.0.6)
+    dotenv (2.7.5)
     erubi (1.9.0)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
@@ -100,6 +101,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 5.2)
+  dotenv
   foreman
   railties (~> 5.2)
   sqlite3

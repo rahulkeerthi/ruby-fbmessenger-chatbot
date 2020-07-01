@@ -15,4 +15,5 @@ gem 'stealth-facebook'
 
 group :development do
   gem 'foreman'
+  gem 'dotenv'
 end
