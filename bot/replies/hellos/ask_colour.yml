@@ -1,0 +1,7 @@
+- reply_type: text
+  text: What's your favourite colour?
+  suggestions:
+    - text: Orange
+      image_url: "https://images-na.ssl-images-amazon.com/images/I/51sVpTHDKFL._AC_SY550_.jpg"
+    - text: Blue
+      image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/1200px-IKB_191.jpg"

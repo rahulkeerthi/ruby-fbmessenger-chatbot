@@ -1,0 +1,8 @@
+- reply_type: text
+  text: Oh, hello again! I'm still WagSwag the Stealth bot.
+- reply_type: delay
+  duration: 1
+- reply_type: image
+  image_url: "https://media.giphy.com/media/dw2jpsey5a5I4/giphy.gif"
+- reply_type: delay
+  duration: 2

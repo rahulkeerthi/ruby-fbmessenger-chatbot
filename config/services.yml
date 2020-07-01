@@ -8,7 +8,7 @@ default: &default
     setup:
       greeting: # Greetings are broken up by locale
         - locale: default
-          text: "Welcome to Stealth Bot."
+          text: "Welcome to the home of WagSwag the Stealth Bot."
       get_started:
         payload: new_user
       persistent_menu:
@@ -18,14 +18,6 @@ default: &default
             - type: payload
               text: Test Button
               payload: test_button
-
-  # ===========================================
-  # ======== Example SMS Service Setup ========
-  # ===========================================
-  # twilio:
-  #   account_sid: XXXTWILIO_ACCOUNT_SIDXXX
-  #   auth_token: XXXTWILIO_AUTH_TOKENXXX
-  #   from_phone: +14155330000
 
 production:
   <<: *default
@@ -37,7 +29,7 @@ development:
     setup:
       greeting: # Greetings are broken up by locale
         - locale: default
-          text: "Welcome to Stealth Bot."
+          text: "Welcome to the home of WagSwag the Stealth Bot."
       get_started:
         payload: new_user
       persistent_menu:
