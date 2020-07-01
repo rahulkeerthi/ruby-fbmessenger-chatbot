@@ -8,7 +8,7 @@ default: &default
     setup:
       greeting: # Greetings are broken up by locale
         - locale: default
-          text: "Welcome to my Facebook Bot."
+          text: "Welcome to Stealth Bot."
       get_started:
         payload: new_user
       persistent_menu:
@@ -16,8 +16,8 @@ default: &default
           composer_input_disabled: false
           call_to_actions:
             - type: payload
-              text: Some Button
-              payload: some_button
+              text: Test Button
+              payload: test_button
 
   # ===========================================
   # ======== Example SMS Service Setup ========
@@ -37,7 +37,7 @@ development:
     setup:
       greeting: # Greetings are broken up by locale
         - locale: default
-          text: "Welcome to my Facebook Bot."
+          text: "Welcome to Stealth Bot."
       get_started:
         payload: new_user
       persistent_menu:
@@ -45,8 +45,8 @@ development:
           composer_input_disabled: false
           call_to_actions:
             - type: payload
-              text: Some Button
-              payload: some_button
+              text: Test Button
+              payload: test_button
             - type: nested
               text: Developer
               buttons:
