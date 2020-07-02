@@ -34,6 +34,7 @@
 
 # Ignore dump file
 *.rdb
+dump.rdb
 
 # ignore presentation workspace settings
 /config/stealth.code-workspace
