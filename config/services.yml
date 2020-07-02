@@ -1,7 +1,5 @@
 default: &default
-  # ==========================================
-  # ===== Example Facebook Service Setup =====
-  # ==========================================
+
   facebook:
     verify_token: <%= ENV['FACEBOOK_VERIFY_TOKEN'] %>
     page_access_token: <%= ENV['FACEBOOK_ACCESS_TOKEN'] %>
